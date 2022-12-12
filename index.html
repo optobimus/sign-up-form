@@ -24,25 +24,35 @@
         </div>
         <div class="signup">
             <h2>Let's do this!</h2>
-            <form action="" method="post" class="signup-form">
-                <div style="float: left; margin-right: 20px;">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" required placeholder="Thor">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" required placeholder="Odinson">
+            <form action="" method="post" class="signup-form"> 
+                <div class="formgrid">
+                    <div class="element">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" required placeholder="Thor">     
+                    </div> 
+                    <div class="element">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" required placeholder="Odinson">                
+                    </div>
+                    <div class="element">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required placeholder="thor.odinson@gmail.com">      
+                    </div>
+                    <div class="element">
+                        <label for="phone">PHONE NUMBER (optional)</label>
+                        <input type="tel" id="phone">    
+                    </div>
+                    <div class="element">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required>        
+                    </div>
+                    <div class="element">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm" required> 
+                    </div>
                 </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" required placeholder="thor.odinson@gmail.com">
-                    <label for="phone">PHONE NUMBER (optional)</label>
-                    <input type="tel" id="phone">
-                </div>
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" required>
-                    <label for="confirm">LAST NAME</label>
-                    <input type="password" id="confirm" required>
-                </div>
+                
+             
             </form>
         </div>
         <div class="lower">
