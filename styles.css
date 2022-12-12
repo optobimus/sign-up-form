@@ -15,6 +15,10 @@ body {
     background: url("static/virtualreality.jpg");
     width: 35%;
     min-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
@@ -23,7 +27,25 @@ img {
 }
 
 .logo {
+    display: flex;
     font-family: Norse;
+    height: 120px;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    font-size: 4rem;
+    color: white;
+    justify-content: center;
+    margin-top: 300px;
+    align-items: center;
+}
+
+#odinLogo {
+    height: 90px;
+    width: auto;
+}
+
+.credit {
+    bottom: 0;
 }
 
 .right {
@@ -34,7 +56,7 @@ img {
 .description {
     font-weight: 600;
     font-size: 1.5rem;
-    padding: 200px 130px 50px 35px;
+    padding: 160px 130px 50px 35px;
     background-color: #F9FAFB;
 
 }
@@ -94,10 +116,21 @@ button {
 input, label {
     display: block;
 }
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    margin-top: 3px;
+}
+
 .signup-form {
+    font-weight: 600;
     display: flex;
     font-size: 0.8rem;
-    font-stretch: expanded;
+    color: #1F2937;
+    letter-spacing: 0.1em;
     /*flex-flow: row wrap;*/
   }
 
