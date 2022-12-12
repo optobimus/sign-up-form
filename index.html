@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="left">
+    <div class="left" background="static/virtualreality.jpg">
         <div class="logo">
 
         </div>
@@ -22,7 +23,27 @@
             You <em>know</em> you want to.
         </div>
         <div class="signup">
-
+            <h2>Let's do this!</h2>
+            <form action="" method="post" class="signup-form">
+                <div style="float: left; margin-right: 20px;">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" required placeholder="Thor">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" required placeholder="Odinson">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" required placeholder="thor.odinson@gmail.com">
+                    <label for="phone">PHONE NUMBER (optional)</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required>
+                    <label for="confirm">LAST NAME</label>
+                    <input type="password" id="confirm" required>
+                </div>
+            </form>
         </div>
         <div class="lower">
             <button type="submit">Create Account</button>
